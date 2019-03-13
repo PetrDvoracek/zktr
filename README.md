@@ -31,3 +31,4 @@ ponentiometer as "AIN0"
 ```
 sudo apt-get install -y software-properties-common
 ```
+[flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
