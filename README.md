@@ -19,3 +19,6 @@ hvezda - switch
 definuje standarty LAN a WAN, podivej se.
 
 broadcast
+
+#install python from scratch
+[this thread](https://askubuntu.com/questions/682869/how-do-i-install-a-different-python-version-using-apt-get)
