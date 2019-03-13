@@ -22,3 +22,6 @@ broadcast
 
 #install python from scratch
 [this thread](https://askubuntu.com/questions/682869/how-do-i-install-a-different-python-version-using-apt-get)
+
+# GPIO on beaglebone
+[hello world](https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/gpio) run as superuser!
