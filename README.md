@@ -26,3 +26,8 @@ broadcast
 # GPIO on beaglebone
 [hello world](https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/gpio) run as superuser!
 ponentiometer as "AIN0"
+
+# add-apt-repository not command
+```
+sudo apt-get install -y software-properties-common
+```
