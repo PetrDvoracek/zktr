@@ -23,6 +23,12 @@ broadcast
 #install python from scratch
 [this thread](https://askubuntu.com/questions/682869/how-do-i-install-a-different-python-version-using-apt-get)
 
+## test
+filtracni tabulka
+flags   - communication
+        - read/write
+        - transmit
+
 # GPIO on beaglebone
 [hello world](https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/gpio) run as superuser!
 ponentiometer as "AIN0"
