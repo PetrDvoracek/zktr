@@ -39,6 +39,10 @@ sudo apt-get install -y software-properties-common
 ```
 [flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
 
+# next step: play snake from beaglebone!
+
+[link](https://www.shanelynn.ie/asynchronous-updates-to-a-webpage-with-flask-and-socket-io/)
+
 ```python
 #!/usr/local/bin/python3.5
 
