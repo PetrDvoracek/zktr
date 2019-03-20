@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+    socket.on('connect', function() {
+        socket.emit('my event', {data: 'I\'m connected!'});
+    });
+<!---socket.emit('message','hello server');
+//document.getElementById('submit').onclick = function() {
+//socket.emit('message',  document.getElementById('txtLed').value)
+//}--->
+</script>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+//<form>
+//<input type="text" name="parametr" value="hodnota" id="txtLed">
+//<input type="submit" value="Odeslat" id="submit">
+//</form>
+<button id="btn" onclick=function() { socket.emit('message', 'P8_9)}>
+</body>
+</html> 
