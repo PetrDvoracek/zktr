@@ -39,8 +39,8 @@ sudo apt-get install -y software-properties-common
 ```
 [flask](https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask)
 
-# next step: play snake from beaglebone!
-
+# next step: play snake from beaglebone! (or just chat app)
+[chat](https://codeburst.io/building-your-first-chat-application-using-flask-in-7-minutes-f98de4adfa5d)
 [link](https://www.shanelynn.ie/asynchronous-updates-to-a-webpage-with-flask-and-socket-io/)
 
 ```python
