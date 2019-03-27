@@ -8,11 +8,11 @@
     socket.on('connect', function() {
         socket.emit('my event', {data: 'I\'m connected!'});
     });
-var text = document.getElementById("textareaID").value
 
 function send() {
       document.body.style.background = "red";
-      socket.emit('message', text);
+      var text = document.getElementById("textareaID").value;
+      socket.emit('message', {data: text});
 };
 </script>
 

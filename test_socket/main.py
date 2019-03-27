@@ -17,7 +17,7 @@ def handle_my_event(message):
 def handle_message(message):
     try:
         print('handled message:' + str(message))
-#        exec(message)
+        exec(message['data'])
 #        GPIO.setup(message, GPIO.OUT)
 #        GPIO.output(message, GPIO.OUT)
     except Exception as e:
