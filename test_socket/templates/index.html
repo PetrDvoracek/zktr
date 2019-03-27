@@ -8,14 +8,20 @@
     socket.on('connect', function() {
         socket.emit('my event', {data: 'I\'m connected!'});
     });
+var text = document.getElementById("textareaID").value
+
 function send() {
       document.body.style.background = "red";
-      socket.emit('message', "P8_9");
+      socket.emit('message', text);
 };
 </script>
 
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 <button type="button" id="btn" onclick="send()"></button>
+         <br>
+         <textarea rows="5" cols="60" name="description" id="textareaID">
+            Enter details here...
+         </textarea><br>
 </body>
 </html> 
