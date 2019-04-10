@@ -39,8 +39,8 @@ def get_poten_data():
 def render_poten():
     return render_template('potenciometer.html', message='')
 
-async def main():
-    await app.run(debug=True, host='158.196.21.78')
+def main():
+    app.run(debug=True, host='158.196.21.78')
     print("neco")
 
 if __name__ == '__main__':

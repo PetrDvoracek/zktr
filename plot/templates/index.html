@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+
+
+<head>
+  <!-- Plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  
+  <div id="myDiv"></div>
+<script>
+for (;;) {
+var d = Date.now();
+
+var request = new XMLHttpRequest()
+
+request.open('GET', 'http://158.196.21.78:5000/api/potentiometer', true)
+request.onload = function() {
+  // Begin accessing JSON data here
+  var data = JSON.parse(this.response)
+  var trace1 = {
+    x: [d],
+    y: data['poten_value'],
+    type: 'scatter',
+  };
+  var data = [trace1];
+  Plotly.newPlot('myDiv', data, {}, {showSendToCloud: true});
+  
+  }
+
+request.send()
+
+}
+</script>
+
+</body>
+
+
+</html> 

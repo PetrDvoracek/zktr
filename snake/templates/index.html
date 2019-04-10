@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+    socket.on('connect', function() {
+        socket.emit('my event', {data: 'I\'m connected!'});
+    });
+
+function send() {
+      document.body.style.background = "red";
+      var text = document.getElementById("textareaID").value;
+//      socket.emit('message', {data: text});
+      var neco = socket.emit('get_direction',{});
+};
+</script>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<button type="button" id="btn" onclick="send()"></button>
+         <br>
+         <textarea rows="5" cols="60" name="description" id="textareaID">
+            Enter details here...
+         </textarea><br>
+
+</body>
+</html> 
