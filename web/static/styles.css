@@ -1,0 +1,25 @@
+
+body{
+    background-color: grey;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: auto;
+}
+.plot{
+    width: 50%;
+    margin: 0 auto;
+}
+.plotInput{
+    width: 15px;
+    margin: auto;
+
+
+}
+.plotObject{
+    width:100%;
+
+}
+.plotSpace{
+    width:80%;
+}
